@@ -20,7 +20,7 @@ if you don't have Node installed, or don't want to install a bunch of global npm
 #### Docker
 [You can use this Docker image](https://hub.docker.com/r/karlfloersch/typescript-frontend/) and it will take care of installing all the packages for you.  Just use the command provided on the repo and then you can gulp, mocha, tsd, or whatever.
 
-
+#### Manual
 ```
 $ git clone https://github.com/karlfloersch/typescript-frontend-workflow.git
 $ cd typescript-frontend-workflow
