@@ -9228,7 +9228,6 @@ var MrButton = (function () {
     MrButton.addClickListener = function () {
         jQuery("#mr-button").click(function () {
             jQuery("body").append("<p>Brilliant! I seem to be in tip-top shape.</p>");
-            console.log("poodle");
         });
     };
     return MrButton;

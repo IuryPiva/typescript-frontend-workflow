@@ -1,6 +1,6 @@
 {
-  "name": "PeerWeb",
-  "description": "A peered content delivery engine",
+  "name": "typescript-frontend-workflow",
+  "description": "A base app which can be a starting point for building complex TypeScript applications",
   "version": "0.0.1",
   "private": true,
   "dependencies": {},

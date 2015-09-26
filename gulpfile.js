@@ -1,23 +1,17 @@
 var gulp = require('gulp');
 var rename = require('gulp-rename');
-
 var source = require('vinyl-source-stream');
-
 var exorcist = require('exorcist');
-
 var browserify = require('browserify');
 var debowerify = require('debowerify');
 var tsify = require('tsify');
-
 var uglifyJs = require('gulp-uglify');
-
 
 var config = {
   bowerDir: __dirname + '/bower_components',
   applicationDir: __dirname + '/src',
   publicDir: __dirname + '/dist'
 };
-
 
 // ====== APPLICATION
 
@@ -44,7 +38,7 @@ gulp.task('default', function() {
 /**
  * Minify result js file
  */
-gulp.task('uglify-js', ['compile-js'], function() {
+gulp.task('uglify-js', ['default'], function() {
   return gulp.src(config.publicDir + '/app.js')
     .pipe(uglifyJs())
     .pipe(rename('application.min.js'))
