@@ -1,14 +1,23 @@
 {
-	"name": "example-frontend",
-	"version": "1.0.0",
-	"description": "Example of frontend workflow",
-	"licence": "MIT",
-	"authors": [
-		"David Kudera <kudera.d@gmail.com>"
-	],
-	"main": ["app/index.ts"],
-	"dependencies": {
-		"jquery": "1.11.2",
-		"bootstrap": "3.3.2"
-	}
+  "name": "typescript-frontend-workflow",
+  "version": "0.0.0",
+  "homepage": "https://github.com/karlfloersch/typescript-frontend-workflow",
+  "authors": [
+    "Karl Floersch <karl@karlfloersch.com>"
+  ],
+  "description": "A base app which can be a starting point for building complex TypeScript applications",
+  "main": "app.js",
+  "license": "NONE",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
 }
