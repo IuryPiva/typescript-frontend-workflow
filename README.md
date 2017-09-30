@@ -1,4 +1,4 @@
-# Typescript Frontent Workflow
+# Typescript Frontend Workflow
 This is an example app using a bunch of different modules that will enable advanced client-side app development.
 It's great for large scale JavaScript apps. I also include a *Dockerfile* which could be useful for developing
 if you don't have Node installed, or don't want to install a bunch of global npm modules.
